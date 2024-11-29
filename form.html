@@ -1,0 +1,102 @@
+<!-- 
+Create a web page consisting of a form that mirrors the ALT SCHOOL application form
+(https://portal.altschoolafrica.com/auth/create-account). Name the file form.html, connect the form.html to your
+first assignment via global navigation ensuring both files are in the folder of the first assignment, which
+should be at the top of both pages.You should create a footer with your address and a copyright. It must also
+be accessible, incorporating appropriate HTML tags.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AltSchool Assignment 1 - Tega Rorobi</title>
+    </head>
+    <!-- <body> -->
+    <body id="body" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif"></body>
+        <header>
+            <!-- some image of the AltSchool logo -->
+        </header>
+
+        <br>
+
+        <main>
+            <b>Already an AltSchooler? <a href="https://portal.altschoolafrica.com/auth/login">Sign In!</a></b>
+            <h1>Signup</h1>
+            <p>Take the next steps to apply at AltSchool Africa</p>
+
+            <br>
+
+            <form action=".">
+                <h3>First Name</h3>
+                <input name="first_name" type="text">
+
+                <h3>Last Name</h3>
+                <input name="last_name" type="text">
+
+                <h3>Gender</h3>
+                <select name="gender">
+                    <option value="">-----</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+
+                <h3>Date of Birth</h3>
+                <input name="dob" type="date">
+
+                <h3>Email Address</h3>
+                <input name="email" type="email">
+
+                <h3>Phone number</h3>
+                <input name="phone" type="text">
+
+                <h3>Country</h3>
+                <select name="country">
+                    <option value="">-----</option>
+                    <option value="nigeria">Nigeria</option>
+                    <option value="other">Other<option>
+                </select>
+
+                <h3>State/City of Residence</h3>
+                <input name="city" type="text">
+
+                <h3>How did you hear about us?</h3>
+                <select name="channel">
+                    <option value="">-----</option>
+                    <option value="twitter">Twitter</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="linkedin">LinkedIn</option>
+                    <option value="youtube">Youtube</option>
+                    <option value="friend">Friend</option>
+                    <option value="whatsApp">WhatsApp</option>
+                    <option value="instagram">Instagram</option>
+                    <option value="billboard">Bill Board</option>
+                </select>
+
+                <h3>Password</h3>
+                <input name="password" type="password">
+
+                <h3>Confirm Password</h3>
+                <input name="password_confirmation" type="password">
+
+                <br><br>
+
+                <small>By clicking continue, I agree to <a href="https://altschoolafrica.com/terms-and-conditions">Terms of Use</a> and acknowledge that I have read the <a href="https://altschoolafrica.com/privacy-policy">Privacy Policy</a></small>
+                
+                <br>
+
+                <input type="submit" value="Submit ➡">
+            </form>
+            
+
+        </main>
+
+        <br><br>
+        
+        <footer>
+            <a href="#body">Back to the top</a>
+            <p>Deciphrexx Corp. Lagos, Nigeria. &copy 2024.</p>
+        </footer>
+    </body>
+</html>
